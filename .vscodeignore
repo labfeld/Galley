@@ -1,0 +1,11 @@
+.cursor/**
+.git/**
+.gitignore
+preview/**
+scripts/**
+agent-tools/**
+**/*.md
+**/.DS_Store
+demo/*
+screenshots/*
+

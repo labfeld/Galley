@@ -1,0 +1,18 @@
+{
+  "scopeName": "galley.notes",
+  "injectionSelector": "L:comment",
+  "patterns": [
+    {
+      "match": "\\b(TODO|FIXME|HACK|XXX)\\b",
+      "name": "keyword.codetag.notation.galley"
+    },
+    {
+      "match": "\\b(NOTE|WARNING)\\b",
+      "name": "comment.note.notation.galley"
+    },
+    {
+      "match": "(?<!\\w)@[A-Za-z][A-Za-z0-9]*",
+      "name": "storage.type.annotation.galley"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "galley-dark",
+  "displayName": "Galley Dark",
+  "description": "Clean, legible dark and light themes designed for Atkinson Hyperlegible Mono.",
+  "version": "0.2.1",
+  "publisher": "LanceFeldman",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+    "keywords": [
+    "theme",
+    "dark",
+    "light",
+    "atkinson hyperlegible",
+    "readable"
+  ],
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Galley",
+        "uiTheme": "vs-dark",
+        "path": "./themes/galley-color-theme.json"
+      },
+      {
+        "label": "Galley Vivid",
+        "uiTheme": "vs-dark",
+        "path": "./themes/galley-vivid-color-theme.json"
+      },
+      {
+        "label": "Galley Soft",
+        "uiTheme": "vs",
+        "path": "./themes/galley-soft-color-theme.json"
+      },
+      {
+        "label": "Galley Projector",
+        "uiTheme": "vs",
+        "path": "./themes/galley-projector-color-theme.json"
+      }
+    ],
+    "grammars": [
+      {
+        "scopeName": "galley.notes",
+        "path": "./syntaxes/notes.injection.json",
+        "injectTo": [
+          "source",
+          "text",
+          "text.html.markdown"
+        ]
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/labfeld/Galley"
+  }
+}
